@@ -416,7 +416,7 @@ struct ON_CLASS ON_MeshTopologyFace
 class ON_CLASS ON_MeshFace
 {
 public:
-  int vi[4]; // vertex index - vi[2]==vi[3] for tirangles
+  int vi[4]; // vertex index - vi[2]==vi[3] for triangles
 
   /*
   Returns:
